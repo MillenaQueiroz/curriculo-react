@@ -10,6 +10,8 @@ function HeroSection({
     description,
     img,
     alt,
+    myText,
+    textBody,
     imgIcon
 }) {
     return (
@@ -31,6 +33,22 @@ function HeroSection({
 
                             </div>
                         </div>
+                    </div>
+                </div>
+
+                <div className="text-container">
+                    <div className="title-container">
+                        {myText}
+                    </div>
+                    <div className="textBody">{textBody}</div>
+                </div>
+
+                <div className="text-container">
+                    <div className="title-container">
+                        {myText}
+                    </div>
+                    <div className="textBody">
+                        {textBody}
                     </div>
                 </div>
 

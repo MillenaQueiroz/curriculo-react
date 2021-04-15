@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 .home-row{
     align-items: center;
@@ -12,9 +13,11 @@
     flex:2;
 }
 
-.home-icon img{
+.home-imgIcon {
     border-radius:50%;
-    max-width: 60%;
+    max-width: 70%;
+    margin:0px 0px 0px 20%;
+    vertical-align: middle;
 } 
 
 
@@ -34,3 +37,40 @@
     font-family:'Open Sans';
     color:#4f5964;
 }
+
+.title-container{
+    font-size: 48px;
+    color:#ff5757;
+    font-family:'Open Sans';
+    font-weight: 700;
+    text-align: center;
+}
+.text-container{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color:#4f5964;
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+
+}
+.textBody{
+    margin-top:10%;
+    text-align: justify;
+    flex:1;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .heading{
+        font-size: 30px;
+    }
+    .heading-alt{
+        font-size: 30px;
+    }
+    .subtitle{
+        font-size: 10px;
+    }
+  }
