@@ -8,6 +8,21 @@
     font-style: bold;
     position: sticky;
     padding-right: 1%;
+    display:flex;
+}
+.navbar-logo{
+  background-color: #ff5757;
+  color: #f1e7e1;
+  align-items: center;
+  text-decoration: none;
+  justify-self: left;
+  display:flex;
+}
+.home-link{
+  width: 60%;
+  background-color: #ff5757;
+  display:flex;
+  align-self: center;
 }
 
 .navbar-container {

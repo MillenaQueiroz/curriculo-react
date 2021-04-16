@@ -1,0 +1,63 @@
+.title-container{
+    font-size: 48px;
+    color:#ff5757;
+    font-family:'Open Sans';
+    font-weight: 700;
+    text-align: center;
+}
+.text-container{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color:#4f5964;
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+}
+.techIcon{
+    margin-right:5%;
+    margin-left:5%;
+    margin-left: 5%;
+}
+.textBody{
+    margin:4%;
+    margin-top:5%;
+    margin-left:4%;
+    text-align: justify;
+    flex:1;
+    line-height: 1.8;
+    display:flex;
+    flex-direction:row;
+    align-content: center;
+}
+.textBody b{
+    color:#ff5757;
+    font-weight:bolder;
+}
+
+.social-container{
+    margin:10%;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+.social-icon{
+    flex:1;
+    margin:10px;
+    margin-right: 36px;
+    margin-left: 36px;
+    align-self: center;
+}
+@media only screen and (max-width: 600px) {
+    
+    .title-container{
+        font-size: 30px;
+    }
+    .textBody{
+        font-size: 10px;
+    }
+    .social-container{
+        flex-direction: column-reverse;
+    }
+  }

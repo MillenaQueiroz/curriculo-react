@@ -2,9 +2,7 @@ import React from 'react';
 import './HeroSection.css';
 
 function HeroSection({
-    bgColor,
-    normalText,
-    textDesc,
+
     initialText,
     sinitialText,
     description,
@@ -35,23 +33,6 @@ function HeroSection({
                         </div>
                     </div>
                 </div>
-
-                <div className="text-container">
-                    <div className="title-container">
-                        {myText}
-                    </div>
-                    <div className="textBody">{textBody}</div>
-                </div>
-
-                <div className="text-container">
-                    <div className="title-container">
-                        {myText}
-                    </div>
-                    <div className="textBody">
-                        {textBody}
-                    </div>
-                </div>
-
             </div>
 
             
