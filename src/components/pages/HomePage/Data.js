@@ -5,6 +5,6 @@ export const homeObjOne = {
     sinitialText:'SOU A MILLENA!',
     description: 'Luziânia, Goiás, Brasil',
     imgIcon: '',
-    img: require("../../images/imgmillena.jpg").default,
+    img: require("../../../images/imgmillena.jpg").default,
     alt: 'icone'
 }
