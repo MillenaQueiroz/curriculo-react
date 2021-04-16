@@ -7,10 +7,7 @@ function HeroSection({
     sinitialText,
     description,
     img,
-    alt,
-    myText,
-    textBody,
-    imgIcon
+    alt
 }) {
     return (
         <>

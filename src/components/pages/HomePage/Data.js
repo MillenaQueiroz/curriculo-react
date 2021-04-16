@@ -1,3 +1,4 @@
+/*implementar essa ideia em outras páginas*/
 
 export const homeObjOne = {
     initialText: 'OI,',
